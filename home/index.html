@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Coding Club, NIT Arunachal Pradesh</title>
+    <link rel="icon" href="../assets/img/resources/codingclubLogo.jpg">
+    <link rel="stylesheet" media="screen" href="https://hrcdn.net/hackerrank/assets/static/interns2019/style-9ffb577943f22fbfa79619dcaf0f234a.css" />
+    <link rel="stylesheet" href="https://hrcdn.net/hackerrank/assets/static/interns2019/typewriter-ca315d39e942328e5b25c58dc4378099.css" />
+    <style>
+        .popup {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .popup .popuptext {
+            visibility: hidden;
+            width: 160px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px 0;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -80px;
+        }
+        .popup .popuptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        }
+        .popup .show {
+            visibility: visible;
+            -webkit-animation: fadeIn 1s;
+            animation: fadeIn 1s;
+        }
+        @-webkit-keyframes fadeIn {
+            from {opacity: 0;} 
+            to {opacity: 1;}
+        }
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity:1 ;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="details-section">
+            <header class="introduction">         
+                <div class="phrase">
+                    <h3><span class="warning">Let's start by solving a simple question.</span></h3>
+                    <h3 style="width: 150%;"><span class="var-highlight">Array passed as an argument to a function is interpreted as </span></h3>
+                    <div class="popup" onClick="myFunction()"><h3>Address of the array</h3><span class="popuptext" id="myPopup">Oops! This is not right!</span></div><br>
+                    <div class="popup" onClick="myFunction()"><h3>Values of the first element of the array</h3><span class="popuptext" id="myPopup">Oops! This is not right!</span></div><br>
+                    <a href="CodingHome.php"><h3>Address of the first element of the array</h3></a><br>
+                    <div class="popup" onClick="myFunction()"><h3>Number of element of the array</h3><span class="popuptext" id="myPopup">Oops! This is not right!</span></div>
+                    <script>
+                        function myFunction() {
+                            var popup = document.getElementById("myPopup");
+                            popup.classList.toggle("show");
+                        }
+                    </script>
+                </div>
+            </header>
+            <main class="intern-detail"></main>
+        </section>
+        <section class="interns-section js-interns-section" style="display: none!important;"></section>
+        <section>
+        	<pre class="typewriter" id="npm-install">
+				<span class="var-highlight">$</span> npm install codingclub@nitap
+[<span class="rotating">/</span>....]pre-install: info- Installing <span class="info">packages</span>...
+[\....]pre-install: info - Installing <span class="info">python</span>...
+[|\...]pre-install: info - Installing dependency <span class="info">v.3.1.0</span>...
+[||\.]node-gyp-build: info- Installing dependency <span class="info">request</span>...
+Building Fresh Packages
+[||/.]post-install: info - Installing dependency <span class="info">response</span>100%...
+[|||\]lock-file: info - generating <span class="info">modules</span>.json
+<span class="warning">warning</span>: Installing dependencies in path... <span class="warning">react-hooks@16.5-beta</span>
+<span class="error">error</span>: Installation failed: no module found with given version!
+<span class="var-highlight">$</span> gcc -v
+Using built in specs...
+<span class="info">Target</span>: x86_64-w64-mingw32
+<span class="info">Configured with</span>: ../../../src/gcc-5.1.0/configure --build [<span class="rotating">/</span>....]
+gcc version 5.1.0 (tdm64-1)
+<span class="var-highlight">$</span> npm start "coding pundits" </pre>
+		</section>
+	</div>
+	<footer></footer>
+	<script src="https://hrcdn.net/hackerrank/assets/static/interns2019-9c5232b74d0fa51e9a67a329f396ebe9.js"></script>
+	<script>
+  		console.log("false")
+  	</script>
+</body>
+</html>
